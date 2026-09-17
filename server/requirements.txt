@@ -1,0 +1,20 @@
+# Core API
+fastapi==0.136.3
+uvicorn[standard]
+pydantic>=2.0,<3.0
+
+# Analítica
+duckdb
+pandas
+numpy<3.0
+
+# Optimización bayesiana
+scikit-optimize==0.10.2
+scikit-learn
+scipy
+
+# Visualización
+matplotlib
+
+# Testing
+pytest
